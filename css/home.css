@@ -14,15 +14,15 @@
   color: var(--cor-fonte);
 }
 
-/* .vantagens li:nth-child(1) {
-  background-image: url('../img/icons/frete.svg');
-}*/
-
 .vantagens li:nth-child(1) {
-  background-image: url("../img/icons/troca.svg");
+  background-image: url("../img/icons/frete.svg");
 }
 
 .vantagens li:nth-child(2) {
+  background-image: url("../img/icons/troca.svg");
+}
+
+.vantagens li:nth-child(3) {
   background-image: url("../img/icons/card.svg");
 }
 
@@ -124,7 +124,7 @@
 }
 
 .categorias-home a {
-  flex-basis: calc(50% - 5px);
+  flex-basis: calc(33% - 5px);
   position: relative;
 }
 
@@ -134,17 +134,8 @@
   object-fit: cover;
 }
 
-@media (max-width: 454px) {
-  .categorias-home a {
-    flex-basis: 100%;
-  }
-
-  .categorias-home a:nth-child(1) {
-    margin-bottom: 10px;
-  }
-}
-
-.categorias-home a:nth-child(1) {
+.categorias-home a:nth-child(1),
+.categorias-home a:nth-child(3) {
   border-top: 10px solid var(--cor-border);
 }
 
@@ -159,11 +150,30 @@
   margin-right: 40px;
   margin-bottom: 40px;
   width: 200px;
+  transition: ease-in-out 0.3s;
+}
+
+.categorias-home span:hover {
+  background-color: var(--cor-background);
+  color: var(--cor-principal);
 }
 
 .categorias-home a:nth-child(2) span {
-  justify-self: start;
-  left: 0;
-  margin-left: 40px;
   margin-bottom: 30px;
+}
+
+@media (max-width: 786px) {
+  .categorias-home a {
+    flex-basis: 100%;
+  }
+
+  .categorias-home a:nth-child(1) {
+    margin-bottom: 10px;
+  }
+
+  .categorias-home a:nth-child(2) {
+    border-top: 10px solid var(--cor-border);
+    border-bottom: unset;
+    margin-bottom: 10px;
+  }
 }

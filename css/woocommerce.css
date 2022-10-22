@@ -189,7 +189,7 @@
 
 .woocommerce-MyAccount-navigation a:hover,
 .woocommerce-MyAccount-navigation .is-active a {
-  background-color: var(--cor-principal);
+  background-color: var(--cor-secundaria);
 }
 
 .woocommerce-MyAccount-content p {

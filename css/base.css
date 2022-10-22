@@ -1,16 +1,16 @@
 * {
   box-sizing: border-box;
   outline: none !important;
-  --cor-fonte: #324548;
-  --cor-principal: #ffca10;
-  --cor-secundaria: #bf972f;
-  --cor-secundaria-hover: #523a03;
-  --cor-border: #9f740d;
-  --cor-background: #9f740d;
-  --cor-background-contraste: #1a5e6b;
+  --cor-fonte: #1f1c23;
+  --cor-principal: #fff;
+  --cor-secundaria: #52b5d2;
+  --cor-secundaria-hover: #6263bd;
+  --cor-border: #386c93;
+  --cor-background: #386c93;
+  --cor-background-contraste: #f7ff00;
   --cor-carrinho-count: #fff;
   --cor-fonte-contraste: #fff;
-  --font-family: "Nunito", sans-serif;
+  --font-family: "Roboto", sans-serif;
 }
 
 body {

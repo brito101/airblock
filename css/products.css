@@ -210,7 +210,7 @@
 }
 
 .current-menu-item > a {
-  color: var(--cor-principal);
+  color: var(--cor-background);
 }
 
 .woocommerce

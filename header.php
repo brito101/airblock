@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <title><?php wp_title('|'); ?></title>
   <?php wp_head(); ?>
 </head>
@@ -20,7 +20,14 @@
   ?>
   <div class="main-hero">
     <header class="header container">
-      <a href="<?php bloginfo('url'); ?>" class="logo_custom"><img src="<?= $img_url; ?>/logo.png" alt="<?php bloginfo('name') ?>" width="250" height="250" id="logo" /></a>
+      <a href="<?php bloginfo('url'); ?>"><img src="<?= $img_url; ?>/logo.webp" alt="<?php bloginfo('name') ?>" width="192" height="192" /></a>
+      <div class="busca">
+        <form action="<?php bloginfo('url'); ?>/loja/" method="get">
+          <input type="text" name="s" id="s" placeholder="Buscar" value="<?php the_search_query(); ?>">
+          <input type="text" name="post_type" value="product" class="hidden">
+          <input type="submit" id="searchbutton" value="Buscar">
+        </form>
+      </div>
       <nav class="conta">
         <a href="<?php bloginfo('url'); ?>/minha-conta" class="minha-conta">Minha Conta</a>
         <a href="<?php bloginfo('url'); ?>/carrinho" class="carrinho">Carrinho
@@ -29,13 +36,6 @@
           <?php endif ?>
         </a>
       </nav>
-      <div class="busca">
-        <form action="<?php bloginfo('url'); ?>/loja/" method="get">
-          <input type="text" name="s" id="s" placeholder="Buscar" value="<?php the_search_query(); ?>">
-          <input type="text" name="post_type" value="product" class="hidden">
-          <input type="submit" id="searchbutton" value="Buscar">
-        </form>
-      </div>
     </header>
   </div>
 

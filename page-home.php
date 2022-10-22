@@ -33,6 +33,7 @@ $data['vendidos'] = format_products($products_sales, 'medium');
 
 $home_id = get_the_ID();
 $categoria_esquerda = get_post_meta($home_id, 'categoria_esquerda', true);
+$categoria_centro = get_post_meta($home_id, 'categoria_centro', true);
 $categoria_direita = get_post_meta($home_id, 'categoria_direita', true);
 
 function get_product_category_data($category)
@@ -49,9 +50,11 @@ function get_product_category_data($category)
 }
 
 $data['categorias'][$categoria_esquerda] = get_product_category_data($categoria_esquerda);
+$data['categorias'][$categoria_centro] = get_product_category_data($categoria_centro);
 $data['categorias'][$categoria_direita] = get_product_category_data($categoria_direita);
 
 $data['categorias'][$categoria_esquerda] = get_product_category_data($categoria_esquerda);
+$data['categorias'][$categoria_centro] = get_product_category_data($categoria_centro);
 $data['categorias'][$categoria_direita] = get_product_category_data($categoria_direita);
 
 ?>
@@ -60,7 +63,7 @@ $data['categorias'][$categoria_direita] = get_product_category_data($categoria_d
     <?php the_post(); ?>
 
     <ul class="vantagens">
-      <!-- <li>Frete Grátis</li>-->
+      <li>Frete</li>
       <li>Troca Fácil</li>
       <li>Até 12x</li>
     </ul>

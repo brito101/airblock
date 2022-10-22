@@ -1,5 +1,5 @@
 <footer class="footer">
-  <img src="<?= get_stylesheet_directory_uri(); ?>/img/logo.png" alt="<?php bloginfo('name') ?>" width="192" height="192">
+  <img src="<?= get_stylesheet_directory_uri(); ?>/img/logo-white.webp" alt="<?php bloginfo('name') ?>" width="192" height="192">
   <div class="container footer-info">
     <section>
       <h3>Páginas</h3>
@@ -24,11 +24,10 @@
     <section>
       <h3>Contato</h3>
       <ul>
-        <li>(11) 2307-1900</li>
-        <li>(11) 4117-3536</li>
-        <li><a href="https://wa.me/5511985861944" title="WhatsApp" target="_blank" rel="noreferrer">(11) 98586-1944</a></li>
+        <li>4003-7945</li>
+        <li><a href="https://wa.me/5521997500020" title="WhatsApp" target="_blank" rel="noreferrer">(21) 99750-0020</a></li>
         <li>
-          <a title="Contato por e-mail" href="mailto:loja@fontedomel.com.br" rel="noreferrer">loja@fontedomel.com.br</a>
+          <a title="Contato por e-mail" href="mailto:loja@fontedomel.com.br" rel="noreferrer">contato@acquaxdobrasil.com.br</a>
         </li>
       </ul>
     </section>
@@ -48,7 +47,7 @@
   $base_state = $countries->get_base_state();
   $complete_address = "$base_address, $base_city, $base_state";
   ?>
-  <small class="footer-copy"><?= bloginfo(); ?> &copy; <?= date('Y'); ?> - <?= $complete_address; ?></small>
+  <small class="footer-copy"><?= bloginfo(); ?> &copy; <?= date('Y'); ?> - Filiais em Vitória-ES, São Paulo-SP e Rio de Janeiro-RJ</small>
 </footer>
 <?php wp_footer(); ?>
 <script src="<?= get_stylesheet_directory_uri(); ?>/js/slide.js"></script>
