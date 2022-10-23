@@ -70,7 +70,7 @@
 }
 
 .product-detail .button {
-  background: var(--cor-background);
+  background: var(--cor-5);
   color: #fff;
   padding: 12px 15px;
   min-width: 200px;

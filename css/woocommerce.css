@@ -9,7 +9,7 @@
 .woocommerce-error {
   background: #eee;
   border: none;
-  color: var(--cor-fonte);
+  color: var(--cor-1);
   padding: 15px 20px;
 }
 
@@ -20,12 +20,12 @@
 }
 
 .woocommerce-error {
-  border-left: 4px solid var(--cor-principal);
+  border-left: 4px solid var(--cor-2);
 }
 
 .woocommerce-message,
 .woocommerce-info {
-  border-left: 4px solid var(--cor-secundaria);
+  border-left: 4px solid var(--cor-3);
 }
 
 /* Formulários */
@@ -42,7 +42,7 @@
 }
 
 .woocommerce button.button {
-  background-color: var(--cor-background) !important;
+  background-color: var(--cor-5) !important;
   color: #fff !important;
   font-weight: 500 !important;
   text-transform: capitalize;
@@ -58,11 +58,11 @@
 .woocommerce-cart a.button.alt {
   text-transform: capitalize;
   font-weight: 500;
-  background-color: var(--cor-secundaria);
+  background-color: var(--cor-3);
 }
 
 .woocommerce-cart a.button.alt:hover {
-  background-color: var(--cor-secundaria-hover);
+  background-color: var(--cor-4);
 }
 
 .woocommerce-cart .cart_totals h2 {
@@ -84,8 +84,8 @@
 .woocommerce .checkout h3 {
   font-size: 1rem;
   padding: 15px;
-  background: var(--cor-background);
-  color: var(--cor-fonte-contraste);
+  background: var(--cor-5);
+  color: var(--cor-2);
   font-weight: 400;
   border-radius: 4px;
   margin-bottom: 10px;
@@ -110,7 +110,7 @@
 .woocommerce #payment div.payment_box {
   background-color: rgba(0, 0, 0, 0.08);
   font-size: 1rem;
-  color: var(--cor-fonte);
+  color: var(--cor-1);
 }
 
 .woocommerce #payment #place_order {
@@ -118,11 +118,11 @@
   margin-top: 20px;
   font-size: 1.25rem;
   padding: 15px 30px;
-  background-color: var(--cor-secundaria) !important;
+  background-color: var(--cor-3) !important;
 }
 
 .woocommerce #payment #place_order:hover {
-  background-color: var(--cor-secundaria-hover) !important;
+  background-color: var(--cor-4) !important;
 }
 
 .woocommerce form.checkout_coupon,
@@ -176,7 +176,7 @@
 /* Estilo Sidmenu */
 
 .woocommerce-MyAccount-navigation ul {
-  background-color: var(--cor-background);
+  background-color: var(--cor-5);
 }
 
 .woocommerce-MyAccount-navigation a {
@@ -189,7 +189,7 @@
 
 .woocommerce-MyAccount-navigation a:hover,
 .woocommerce-MyAccount-navigation .is-active a {
-  background-color: var(--cor-secundaria);
+  background-color: var(--cor-3);
 }
 
 .woocommerce-MyAccount-content p {
@@ -213,7 +213,7 @@
 }
 .woocommerce-order-received .woocommerce-thankyou-order-received {
   color: #fff;
-  background-color: var(--cor-principal);
+  background-color: var(--cor-2);
   padding: 15px;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -241,12 +241,12 @@
 .woocommerce-page .woocommerce-message .button {
   font-weight: normal;
   color: #fff;
-  background: var(--cor-secundaria);
+  background: var(--cor-3);
 }
 
 .woocommerce-page .woocommerce-message .button:hover {
   color: #fff;
-  background: var(--cor-secundaria-hover);
+  background: var(--cor-4);
 }
 
 /** Imagens */
@@ -259,9 +259,9 @@
 
 .woocommerce a.button.alt {
   font-weight: normal;
-  background-color: var(--cor-secundaria);
+  background-color: var(--cor-3);
 }
 
 .woocommerce a.button.alt:hover {
-  background-color: var(--cor-secundaria-hover);
+  background-color: var(--cor-4);
 }

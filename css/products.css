@@ -85,7 +85,7 @@
 
 .woocommerce-breadcrumb {
   padding-bottom: 20px !important;
-  border-bottom: 2px solid var(--cor-border);
+  border-bottom: 2px solid var(--cor-5);
 }
 
 /* ARQUIVO */
@@ -108,27 +108,27 @@
 .pagination .page-numbers {
   border-radius: 2px;
   background: transparent;
-  color: var(--cor-fonte);
+  color: var(--cor-1);
   padding: 4px 10px;
-  border: 1px solid var(--cor-border);
+  border: 1px solid var(--cor-5);
 }
 
 .pagination span.page-numbers {
-  background: var(--cor-background);
+  background: var(--cor-5);
   color: #fff;
-  border: 1px solid var(--cor-border);
+  border: 1px solid var(--cor-5);
 }
 
 .pagination .next,
 .pagination .prev {
-  color: var(--cor-fonte);
+  color: var(--cor-1);
   background: transparent;
 }
 
 .pagination .page-numbers:hover,
 .pagination .next:hover,
 .pagination .prev:hover {
-  background: var(--cor-background);
+  background: var(--cor-5);
   color: #fff;
 }
 
@@ -183,7 +183,7 @@
   .filtros::before {
     content: "Filtrar Resultados";
     display: block;
-    background: var(--cor-background);
+    background: var(--cor-5);
     color: #fff;
     padding: 10px;
     margin-bottom: 20px;
@@ -210,7 +210,7 @@
 }
 
 .current-menu-item > a {
-  color: var(--cor-background);
+  color: var(--cor-5);
 }
 
 .woocommerce
@@ -222,7 +222,7 @@
   height: 10px;
   display: inline-block;
   background: transparent;
-  border: 2px solid var(--cor-border);
+  border: 2px solid var(--cor-5);
   margin-right: 8px;
 }
 
@@ -230,7 +230,7 @@
   .woocommerce-widget-layered-nav-list
   .woocommerce-widget-layered-nav-list__item--chosen
   a::before {
-  background: var(--cor-principal);
+  background: var(--cor-2);
 }
 
 .woocommerce .woocommerce-widget-layered-nav-list .count {
@@ -247,10 +247,10 @@
 
 .woocommerce-ordering select {
   font-size: 1rem;
-  border: 1px solid var(--cor-border);
+  border: 1px solid var(--cor-5);
   padding: 5px 10px;
   font-family: var(--font-family);
-  color: var(--cor-fonte);
+  color: var(--cor-1);
   vertical-align: middle;
   background: transparent;
   max-width: 85%;

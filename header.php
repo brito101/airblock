@@ -1,3 +1,9 @@
+<!--
+@born Oct 22, 2022
+@author Rodrigo Brito <contato@rodrigobrito.dev.br>
+@homepage https://www.rodrigobrito.dev.br
+-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -20,7 +26,9 @@
   ?>
   <div class="main-hero">
     <header class="header container">
-      <a href="<?php bloginfo('url'); ?>"><img src="<?= $img_url; ?>/logo.webp" alt="<?php bloginfo('name') ?>" width="192" height="192" /></a>
+      <a href="<?php bloginfo('url'); ?>" title="Airblock">
+        <h1>Air<span>block</span></h1>
+      </a>
       <div class="busca">
         <form action="<?php bloginfo('url'); ?>/loja/" method="get">
           <input type="text" name="s" id="s" placeholder="Buscar" value="<?php the_search_query(); ?>">

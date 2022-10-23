@@ -11,7 +11,7 @@
   padding: 5px 0 5px 35px;
   background-repeat: no-repeat;
   background-position: center left;
-  color: var(--cor-fonte);
+  color: var(--cor-1);
 }
 
 .vantagens li:nth-child(1) {
@@ -30,7 +30,7 @@
 .slide-item {
   display: flex;
   flex-wrap: wrap;
-  background: var(--cor-background);
+  background: var(--cor-5);
 }
 
 .slide-item img {
@@ -136,11 +136,11 @@
 
 .categorias-home a:nth-child(1),
 .categorias-home a:nth-child(3) {
-  border-top: 10px solid var(--cor-border);
+  border-top: 10px solid var(--cor-5);
 }
 
 .categorias-home a:nth-child(2) {
-  border-bottom: 10px solid var(--cor-border);
+  border-bottom: 10px solid var(--cor-5);
 }
 
 .categorias-home span {
@@ -154,8 +154,8 @@
 }
 
 .categorias-home span:hover {
-  background-color: var(--cor-background);
-  color: var(--cor-principal);
+  background-color: var(--cor-5);
+  color: var(--cor-2);
 }
 
 .categorias-home a:nth-child(2) span {
@@ -172,7 +172,7 @@
   }
 
   .categorias-home a:nth-child(2) {
-    border-top: 10px solid var(--cor-border);
+    border-top: 10px solid var(--cor-5);
     border-bottom: unset;
     margin-bottom: 10px;
   }

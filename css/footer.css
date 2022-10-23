@@ -1,9 +1,24 @@
 .footer {
-  background: var(--cor-background);
+  background: var(--cor-5);
   padding-top: 60px;
 }
 
-.footer img {
+.footer > a h2 {
+  text-align: center;
+  color: var(--cor-1);
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 3px var(--cor-1);
+  letter-spacing: 1px;
+}
+
+.footer > a h2 span {
+  color: var(--cor-2);
+}
+
+.footer a img {
   margin: 0 auto;
   width: 250px;
   height: auto;
@@ -33,12 +48,12 @@
   display: inline-block;
   width: 10px;
   height: 2px;
-  background: #fff;
+  background: var(--cor-2);
   margin-right: 10px;
 }
 
 .footer-info h3 {
-  color: #fff;
+  color: var(--cor-2);
   padding-left: 20px;
   margin-bottom: 20px;
 }
@@ -62,4 +77,15 @@
   background: rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
+}
+
+.menu-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-icon img,
+.icon-img {
+  width: 1.25rem !important;
+  margin-left: 5px !important;
 }
