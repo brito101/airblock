@@ -20,6 +20,7 @@ function format_single_product($id, $img_size = 'medium')
     'link' => $product->get_permalink(),
     'sku' => $product->get_sku(),
     'description' => $product->get_description(),
+    'short_description' => $product->get_short_description(),
     'img' => wp_get_attachment_image_src($product->get_image_id(), $img_size)[0],
     'gallery' => $gallery,
   ];
@@ -57,6 +58,10 @@ function format_single_product($id, $img_size = 'medium')
         <p class="product-price"><?= $produto['price']; ?></p>
         <?php woocommerce_template_single_add_to_cart(); ?>
         <h2>Descrição</h2>
+        <p><?= $produto['short_description']; ?></p>
+      </div>
+      <div class="product-description">
+        <h2>Informações Técnicas</h2>
         <p><?= $produto['description']; ?></p>
       </div>
     <?php endwhile; ?>

@@ -2,7 +2,7 @@
   <a href="<?php bloginfo('url'); ?>" title="Airblock">
     <h2>Air<span>block</span></h2>
   </a>
-  <a href="https://www.acquaxdbrasil.com.br" target="_blank" rel="noreferrer" title="Acqua X do Brasil"><img src="<?= get_stylesheet_directory_uri(); ?>/img/logo-white.webp" alt="<?php bloginfo('name') ?>" width="192" height="192"></a>
+
   <div class="container footer-info">
     <section>
       <h3>Páginas</h3>
@@ -17,17 +17,16 @@
     <section>
       <h3>Redes Sociais</h3>
       <ul>
-        <li><a href="https://www.facebook.com/AcquaXdoBrasil" title="Acqua X no Facebook" target="_blank" rel="noreferrer" class="menu-icon">Facebook <img src="<?= get_stylesheet_directory_uri(); ?>/img/icons/facebook.svg" alt=""></a></li>
-        <li><a href="https://www.instagram.com/acquaxdobrasil/" title="Acqua X no Instagram" target="_blank" rel="noreferrer" class="menu-icon">Instagram <img src="<?= get_stylesheet_directory_uri(); ?>/img/icons/instagram.svg" alt=""></a></li>
+        <li><a href="https://www.facebook.com/" title="Airblock no Facebook" target="_blank" rel="noreferrer" class="menu-icon">Facebook <img src="<?= get_stylesheet_directory_uri(); ?>/img/icons/facebook.svg" alt=""></a></li>
+        <li><a href="https://www.instagram.com/" title="Airblock no Instagram" target="_blank" rel="noreferrer" class="menu-icon">Instagram <img src="<?= get_stylesheet_directory_uri(); ?>/img/icons/instagram.svg" alt=""></a></li>
       </ul>
     </section>
     <section>
       <h3>Contato</h3>
       <ul>
-        <li><a href="tel:4003-7945" rel="noreferrer" class="menu-icon">4003-7945 <img src="<?= get_stylesheet_directory_uri(); ?>/img/icons/phone-solid.svg" alt=""></a></li>
-        <li><a href="https://wa.me/5521997500020" title="WhatsApp" target="_blank" rel="noreferrer" class="menu-icon">(21) 99750-0020 <img src="<?= get_stylesheet_directory_uri(); ?>/img/icons/whatsapp.svg" alt=""></a></li>
+        <li><a href="https://wa.me/5511972952096" title="WhatsApp" target="_blank" rel="noreferrer" class="menu-icon">(11) 97295-2096 <img src="<?= get_stylesheet_directory_uri(); ?>/img/icons/whatsapp.svg" alt=""></a></li>
         <li>
-          <a title="Contato por e-mail" href="mailto:contato@acquaxdobrasil.com.br" rel="noreferrer">contato@acquaxdobrasil.com.br</a>
+          <a title="Contato por e-mail" href="mailto:contato@airblock.com.br" rel="noreferrer">contato@airblock.com.br</a>
         </li>
       </ul>
     </section>
