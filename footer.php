@@ -46,7 +46,7 @@
   $base_state = $countries->get_base_state();
   $complete_address = "$base_address, $base_city, $base_state";
   ?>
-  <small class="footer-copy"><?= bloginfo(); ?> &copy; <?= date('Y'); ?> - Filiais em Vitória-ES, São Paulo-SP e Rio de Janeiro-RJ</small>
+  <small class="footer-copy"><?= bloginfo(); ?> &copy; <?= date('Y'); ?></small>
 </footer>
 <?php wp_footer(); ?>
 <script src="<?= get_stylesheet_directory_uri(); ?>/js/slide.js"></script>
